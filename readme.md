@@ -27,3 +27,30 @@ Dans la table **billets**, sélectioner tous les billets au tarif étudiant qui 
 ##Exercice 8
 
 Dans la table **spectacles**, sélectionner les One Man Show et les pièces de théâtre.
+
+##Exercice 9
+
+Dans la table **billets**, sélectionner tous les prix possibles (enfants, étudiants, ...).
+Chaque résultat ne doit apparaître qu'une seule fois !
+
+##Exercice 10
+
+Dans la table **clients**, sélectionner tous les clients et les trier par nom.
+
+##Exercice 11
+
+Dans la table **clients**, ne sélectionner que les 5 premiers clients.
+
+##Exercice 12
+
+Dans la table **spectacles**, sélectionner tous les genres.
+
+Chaque genre ne doit apparaître qu'une seule fois.
+
+##Exercice 13
+
+Dans la table **spectcles**, sélectionner tous les intitulés et les trier par nom.
+
+##Bonus
+
+Dans la table **clients**, sélectionner Victor SOUCY, Aline LACAILLE, Adrien MICHAUD et Eric TOUGAS.
