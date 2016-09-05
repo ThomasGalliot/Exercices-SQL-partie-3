@@ -1,4 +1,4 @@
-#SQL - Partie 3
+#SQL - Partie 3 : Lecture des données avec condition simple
 
 ##Exercice 1
 
