@@ -1,56 +1,30 @@
-#SQL - Partie 3 : Lecture des données avec condition simple
+# SQL - Partie 3 : Modifications de tables
 
-##Exercice 1
+**Attention : Toutes les commandes que vous taperez devront être conservées dans un fichier .sql**
 
-Afficher tous les clients de la table **clients**
+## Exercice 1
 
-##Exercice 2
+Dans la base de données **webDevelopment**, ajouter à la table **languages** une colonne **versions** (**VARCHAR**).
 
-Afficher tous les clients qui ont une carte de fidélité de la table **clients**.
+## Exercice 2
 
-##Exercice 3
+Dans la base de données **webDevelopment**, ajouter à la table **frameworks** une colonne **version** (**INT**).
 
-Afficher les billets à tarif réduit (Enfants et Étudiants) dans la table **billets**.
+## Exercice 3
 
-##Exercice 4
+Dans la base de données **webDevelopment**, dans la table **languages** renommer la colonne **versions** en **version**.
 
-Afficher tous les billets de la réservation n°1 dans la table **billets**.
+## Exercice 4
+Dans la base de données **webDevelopment**, dans la table **frameworks**, renommer la colonne **name** en **framework**.
 
-##Exercice 5
+## Exercice 5
 
-Afficher tous les concerts de variété pop internationale dans la table **spectacles**.
+Dans la base de données **webDevelopment**, ajouter à la table **frameworks** changer le type de la colonne **versions** en **VARCHAR**.
 
-##Exercice 7
+## TP
 
-Dans la table **billets**, sélectioner tous les billets au tarif étudiant qui appartiennent à la réservation n°1.
-
-##Exercice 8
-
-Dans la table **spectacles**, afficher les One Man Show et les pièces de théâtre.
-
-##Exercice 9
-
-Dans la table **billets**, afficher tous les prix possibles (enfants, étudiants, ...).
-Chaque résultat ne doit apparaître qu'une seule fois !
-
-##Exercice 10
-
-Dans la table **clients**, afficher tous les clients et les trier par nom.
-
-##Exercice 11
-
-Dans la table **clients**, ne'afficher que les 5 premiers clients.
-
-##Exercice 12
-
-Dans la table **spectacles**, afficher tous les genres.
-
-Chaque genre ne doit apparaître qu'une seule fois.
-
-##Exercice 13
-
-Dans la table **spectacles**, afficher tous les intitulés et les trier par nom.
-
-##Bonus
-
-Dans la table **clients**, afficher Victor SOUCY, Aline LACAILLE, Adrien MICHAUD et Eric TOUGAS.
+Dans la base **codex**, dans la table **clients** :
+- supprimer la colonne **secondPhoneNumber**
+- renommer la colonne **firstPhoneNumber** en **phoneNumber**
+- changer le type de la colonne **phoneNumber** en **VARCHAR**
+- ajouter les colonnes **zipCode**(**VARCHAR**) et **city**(**VARCHAR**)
