@@ -19,7 +19,7 @@ Dans la base de données **webDevelopment**, dans la table **frameworks**, renom
 
 ## Exercice 5
 
-Dans la base de données **webDevelopment**, ajouter à la table **frameworks** changer le type de la colonne **versions** en **VARCHAR**.
+Dans la base de données **webDevelopment**, ajouter à la table **frameworks** changer le type de la colonne **version** en **VARCHAR** de taille 10.
 
 ## TP
 
